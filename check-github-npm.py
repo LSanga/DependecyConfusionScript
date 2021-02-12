@@ -1,3 +1,10 @@
+#this script will search all the package.json file from an organization on github, extract all the dependencies and check if they exist on public NPM repository
+#the ones that doesn't exist could be vulnerable to a dependency confusion attack
+
+#is it reccomended to save the output on a file or print only the one that doesn't exist (http status 404)
+#eg
+#python check-github-npm.py > results.txt
+
 import subprocess
 
 organization = "test"
