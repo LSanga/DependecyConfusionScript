@@ -1,0 +1,8 @@
+Collection of scripts useful to perform checks against dependecy confusion
+
+References:
+
+https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610
+https://blog.sonatype.com/dependency-hijacking-software-supply-chain-attack-hits-more-than-35-organizations
+https://azure.microsoft.com/mediahandler/files/resourcefiles/3-ways-to-mitigate-risk-using-private-package-feeds/3%20Ways%20to%20Mitigate%20Risk%20When%20Using%20Private%20Package%20Feeds%20-%20v1.0.pdf
+https://hackerone.com/reports/946409
