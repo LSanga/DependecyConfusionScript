@@ -9,6 +9,8 @@ python check-github-npm.py -t netflix
 
 By default it will only print not found dependencies, enable verbose output with -v (is it recommended to redirect to a file)
 
+![Screenshot]
+
 TODO:
 -convert to python3
 -add option to supply a list of organization from a file
