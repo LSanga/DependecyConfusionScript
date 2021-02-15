@@ -9,6 +9,7 @@ python check-github-npm.py -t netflix
 
 By default it will only print not found dependencies, enable verbose output with -v (is it recommended to redirect to a file)
 
+![CLI](https://raw.githubusercontent.com/LSanga/DependecyConfusionScript/main/github-npm/script-cli.jpg)
 
 TODO:
 -convert to python3
