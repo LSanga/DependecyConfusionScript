@@ -9,7 +9,7 @@ python check-github-npm.py -t netflix
 
 By default it will only print not found dependencies, enable verbose output with -v (is it recommended to redirect to a file)
 
-![CLI](https://raw.githubusercontent.com/LSanga/DependecyConfusionScript/main/github-npm/script-cli.jpg)
+![CLI](https://raw.githubusercontent.com/LSanga/DependecyConfusionScript/main/github-npm/github-npm.jpg)
 
 TODO:
 -add option to supply a list of organization from a file, now it can easily be automated with bash or adapted
