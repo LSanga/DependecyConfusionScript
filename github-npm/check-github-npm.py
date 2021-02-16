@@ -1,4 +1,4 @@
-#python 3
+#python 2
 
 #this script will search all the package.json file from an organization on github, extract all the dependencies and check if they exist on public NPM repository
 #the ones that doesn't exist could be vulnerable to a dependency confusion attack
@@ -46,7 +46,7 @@ for package in packages:
         result = result.split()
 
         if not args.verbose:
-            if str(result[0]) != "200":
-                print("%s,200" % (dependency))
+            if str(result[0].decode()) != "200":
+                print("%s,404" % (dependency))
         else:
-            print("%s,404" % (dependency))
+            print("%s,%s" % (dependency,result[0].decode()))
