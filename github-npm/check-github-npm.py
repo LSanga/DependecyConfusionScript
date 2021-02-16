@@ -29,6 +29,7 @@ packages = packages.split()
 #for every package, find all dependecies
 for package in packages:
     #print (package)
+    package = package.decode()
     
     #extract all dependencies
     find_dependencies = "curl -s -H 'Accept: application/vnd.github.v3.raw' '"+str(package)+"' |  jq -r '.dependencies,.devDependencies | keys? | .[]'"
@@ -39,6 +40,7 @@ for package in packages:
     
     for dependency in dependencies:
         #print (dependency)
+        dependency = dependency.decode()
         check_dependency = "npm info "+dependency+" 2>&1 > /dev/null || echo 404 && echo 200"
         p = subprocess.Popen(check_dependency, stdout=subprocess.PIPE, shell=True)
         (result, err) = p.communicate()
