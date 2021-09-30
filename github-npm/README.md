@@ -11,7 +11,3 @@ By default it will only print not found dependencies, enable verbose output with
 
 ![CLI](https://raw.githubusercontent.com/LSanga/DependecyConfusionScript/main/github-npm/github-npm.jpg)
 
-TODO:
--add option to supply a list of organization from a file, now it can easily be automated with bash or adapted
--add native option to write output to file(s)
-
